@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rm -rf dist",
+    "prepare": "yarn build",
     "build": "tsc -p tsconfig.json",
     "format": "prettier **/**/*.ts --ignore-path ./.prettierignore --write",
     "precommit": "lint-staged",
