@@ -133,7 +133,7 @@ export class ResolversExplorerService extends BaseExplorerService {
 
     const contextOptions = isPropertyResolver
       ? {
-          guards: false,
+          guards: true,
           filters: false,
           interceptors: false,
         }
